@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add a restaurant!</h2>
+
+<p>Fill out this form to add that new restaurant you heard about to your list.</p>
+<form method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input class="form-control" name="name" id="name" type="text"/>
+    </div>
+    <div class="=form-group">
+        <label for="streetaddress">Street Address</label>
+        <input class="form-control" name="streetaddress" id="streetaddress" type="text"/>
+    </div>
+    <div>
+        <label for="city">City</label>
+        <input class="form-control" name="city" id="city" type="text"/>
+    </div>
+    <div>
+        <label for="state">State</label>
+        <input class="form-control" name="state" type="text"/>
+    </div>
+    <div>
+        <label for="zipcode">Zip Code</label>
+        <input class="form-control" name="zipcode" type="text"/>
+    </div>
+    <input type="submit" value="Add Restaurant" />
+</form>
+
